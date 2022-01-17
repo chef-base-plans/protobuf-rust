@@ -12,6 +12,7 @@ pkg_deps=(
 )
 pkg_build_deps=(
   core/rust
+  core/gcc
 )
 
 do_build() {
